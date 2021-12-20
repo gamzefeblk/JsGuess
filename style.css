@@ -28,5 +28,10 @@ body{
    margin-top: 10vh;
    font-size: 2rem;
 }
+#alert{
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 35vh;
+}
 
 

@@ -23,13 +23,15 @@ function onClickBtn() {
         if (sayac > 0) {
             if (val < guessNum) {
                 document.getElementById("number").value=""
-                alert("you can go up")
+                document.getElementById("alert").innerText="you can go up"
+                //alert("you can go up")
                 
             } else if (val == guessNum) {
                 let winHTML = document.getElementById("container").innerHTML = "<h1>YOU WIN!!!!</h1>"
             } else {
                 document.getElementById("number").value=""
-                alert("you can go down")
+                //alert("you can go down")
+                document.getElementById("alert").innerText="you can go down"
                 
             }
             document.getElementById("attempNum").innerText = sayac
