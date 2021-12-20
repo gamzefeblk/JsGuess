@@ -9,7 +9,6 @@ function guessNumFunc(min, max) {
     return parseInt(Math.random() * (max - min) + min)
     console.log(guessNum)
 }
-
 // let btn = document.getElementById("check")
 // btn.addEventListener('click', onClickBtn)
 let sayac = 5
